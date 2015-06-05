@@ -10,4 +10,6 @@ class Capitalize
   puts("Hello \t\tworld")
   puts("\a")
   puts('Hello\nworld')
+  puts(10+5)
+  puts("10"+"5")
 end
