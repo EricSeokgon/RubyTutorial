@@ -1,9 +1,14 @@
 class Conditional2
-  input = 11
-  real = 11
-  if real == input
-    puts("Hello!!!")
+  input = 33
+  real_hadeslee = 11
+  real_k8805 = "ab"
+  if real_hadeslee == input
+    puts("Hello!!!, hadeslee")
    else
-    puts("Who are you?")
+     if real_k8805 == input
+       puts("Hello!!!, k8805")
+     else
+       puts("Who are you?")
+     end
   end
 end
