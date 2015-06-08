@@ -4,11 +4,9 @@ class Conditional2
   real_k8805 = "ab"
   if real_hadeslee == input
     puts("Hello!!!, hadeslee")
-   else
-     if real_k8805 == input
-       puts("Hello!!!, k8805")
-     else
-       puts("Who are you?")
-     end
+  elsif real_k8805 == input
+    puts("Hello!!!, k8805")
+  else
+    puts("Who are you?")
   end
 end
