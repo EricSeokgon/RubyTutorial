@@ -1,9 +1,3 @@
-module Hadeslee
-  module_function()
-  def a()
-    return 'A'
-  end
-end
 
 module K8805
   module_function()
