@@ -1,9 +1,16 @@
-def hadeslee_a()
-  return 'A'
+module Hadeslee
+  module_function()
+  def a()
+    return 'A'
+  end
 end
 
-def k8805_a()
-  return 'B'
+module K8805
+  module_function()
+  def a()
+    return 'B'
+  end
 end
 
-puts(hadeslee_a())
+puts(Hadeslee.a())
+puts(K8805.a())
